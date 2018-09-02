@@ -8,7 +8,7 @@ if name.length == 0
      array.push("#{idx}. #{person}.")
    end
    
-  puts "The line is currently: "
+  puts "The line is currently: #{array}"
     
   end
  
