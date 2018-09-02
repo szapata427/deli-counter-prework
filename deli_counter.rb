@@ -5,10 +5,10 @@ if name.length == 0
     
   else
    name.each_with_index do |person, idx|
-     array.push(person, idx)
+     array.push(person)
    end
    
-  
+  puts "The line is currently: #{array}"
     
   end
  
