@@ -7,6 +7,7 @@ if name.length == 0
    name.each_with_index do |person, idx|
      array.push("#{idx}. #{person}.")
    end
+ end
    
   puts "The line is currently: #{array}"
     
