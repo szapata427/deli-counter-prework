@@ -15,9 +15,7 @@ if name.length == 0
 end
  
  
- def take_a_number(array, string)
-   if array.length == 0
-    array.push(string)
-    puts "Welcome, #{string}. You are number #{array.length + 1}"
-  end
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
