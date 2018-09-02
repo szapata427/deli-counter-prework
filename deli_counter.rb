@@ -21,11 +21,11 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(line)
-  serving = []
+  
   if line.length == 0
     puts "There is nobody waiting to be served!"
   else
-    serving.unshift(line)
+    nextPerson = line.shift
     puts "Currently serving #{nextPerson}"
   end
 end
