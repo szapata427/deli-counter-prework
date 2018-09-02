@@ -5,7 +5,7 @@ if name.length == 0
     
   else
     name.each_with_index(1) do |person, idx|
-     array.push("#{idx}. #{person}.")
+     array.push("#{idx}. #{person}")
    end
  
    
