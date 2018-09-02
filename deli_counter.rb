@@ -9,7 +9,7 @@ if name.length == 0
    end
  end
    
-  puts "The line is currently: #{array}"
+  puts "The line is currently: #{array.join(" ")}"
     
   end
  
