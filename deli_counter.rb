@@ -1,7 +1,7 @@
-def line(deli)
+def line(name)
   i = 0
-  if deli.length > 0
-    puts deli
+  if name.length > 0
+    puts "The line is currently: #{i + 1}. #{name}"
   else
     puts "The line is currently empty." 
   end
