@@ -19,3 +19,12 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
+
+def now_serving(line)
+  if line.length == 0
+    puts "There is nobody wiating to be served!"
+  else
+    nextPerson = line.unshift
+    puts "Currently serving #{nextPerson}"
+  end
+end
